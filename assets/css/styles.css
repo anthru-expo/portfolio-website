@@ -9,7 +9,7 @@
 .bod
 /*===== Colores =====*/
 :root{
-    --first-color: #626197;
+    --first-color: #976161;
     --white-color: #20b6bbd2;
     --dark-color: #17496d;
     --text-color: #00ffff;
@@ -58,12 +58,13 @@ body{
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
-    color: var(--text-color);
+    color: rgb(202, 255, 255);
     line-height: 1.6;
 
 }
-h1,h2,p{
+h1,h2,h3{
     margin: 0;
+    color: rgb(162, 255, 162);
     
 }
 
@@ -202,7 +203,7 @@ img{
     line-height: .8;
 }
 .home__title span{
-    text-shadow: 0 20px 25px rgba(51, 14, 172, 0.5);
+    text-shadow: 0 20px 25px rgba(69, 214, 233, 0.5);
 }
 .home__scroll{
     align-self: flex-end;
