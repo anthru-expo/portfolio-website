@@ -26,7 +26,7 @@
 }
 @media screen and (min-width: 768px){
     :root{
-        --big-font-size: 10.5rem;
+        --big-font-size: 8.5rem;
         --h2-font-size: 2rem;
         --normal-font-size: 1rem;
         --small-font-size: .875rem;
@@ -87,6 +87,7 @@ img{
 /*===== CLASS CSS ===== */
 .section{
     padding: 3rem 0;
+    
 }
 .section-title{
     position: relative;
@@ -116,7 +117,12 @@ img{
     width: calc(100% - 2rem);
     margin-top: 30px;
     margin-bottom: 25px;
+    padding-left: 40px;
 }
+
+
+
+
 .l-header{
     width: 100%;
     position:fixed;
@@ -183,6 +189,9 @@ img{
 }
 
 
+.name_e{
+    padding-left: 25px;
+}
 
 
 
@@ -198,21 +207,46 @@ img{
 }
 .home__title{
     align-self: flex-end;
-    font-size: var(--big-font-size);
+    font-size: 110px;
     color: var(--white-color);
     line-height: .8;
+   
+    
+ 
 }
+
+.home__title_o{
+    align-self: flex-end;
+    font-size: 30px;
+    color: var(--white-color);
+    line-height: .8;
+    
+    padding-bottom: 20px;
+    
+}
+.home_kam{
+    align-self: flex-end;
+    font-size: 30px;
+    color: var(--white-color);
+    line-height: .8;
+    padding-left: 10px;
+    padding-bottom:25px;
+}
+
 .home__title span{
     text-shadow: 0 20px 25px rgba(69, 214, 233, 0.5);
 }
 .home__scroll{
     align-self: flex-end;
-    padding-bottom: var(--mb-4);
+   padding-top: 40px;
+   padding-bottom: 25px;
 }
 .home__scroll-link{
     writing-mode: vertical-lr;
     transform: rotate(-180deg);
     color: var(--white-color);
+    padding-left:25px;
+   
 }
 .home__img{
     position: absolute;
@@ -254,10 +288,12 @@ img{
 /* ===== SKILLS =====*/
 .skills__container{
     row-gap: 2rem;
+    padding:5px;
 }
 .skills__subtitle{
     color: var(--first-color);
     margin-bottom: var(--mb-3);
+    text-align:center;
 }
 .skills__name{
     display: inline-block;
