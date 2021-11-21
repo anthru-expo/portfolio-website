@@ -69,6 +69,10 @@ h1,h2,h3{
 }
 
 
+.oppro{
+    padding-right: 40px;
+}
+
 ul{
     margin: 0;
     padding: 0;
@@ -117,9 +121,13 @@ img{
     width: calc(100% - 2rem);
     margin-top: 30px;
     margin-bottom: 25px;
-    padding-left: 40px;
+    padding-left: 10px;
 }
 
+
+.tt{
+    padding-left:45px;
+}
 
 
 
